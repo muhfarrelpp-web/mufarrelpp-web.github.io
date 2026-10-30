@@ -10,7 +10,7 @@ const artefakData = [
         deskripsi: "Karya seni beraliran Renaissance Utara yang memadukan kisah rohani dengan pemandangan alam pedesaan Flandria secara luas.",
         provenance: "Dibeli dari lelang seni Eropa tahun 2015.",
         status: "tersedia",
-        foto: ["images/Parable.jpg"]
+        foto: ["Parable.jpg"]
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const artefakData = [
         deskripsi: "Tekstil kuno sangat halus dari masa Dinasti Han Barat (abad ke-2 SM) yang ditemukan di situs Situs Makam Han Mawangdui di Changsha, Tiongkok",
         provenance: "Ditemukan melalui penggalian arkeologi terdaftar.",
         status: "tersedia",
-        foto: ["images/Silk_Western_Han_Dynasty.jpg"]
+        foto: ["Silk_Western_Han_Dynasty.jpg"]
     },
     
     {
@@ -37,6 +37,6 @@ const artefakData = [
         deskripsi: "Mahakarya patung dada marmer Carrara karya pematung Italia, Giovanni Strazza, yang dibuat di Roma pada awal tahun 1850-an.",
         provenance: "",
         status: "",
-        foto: ["images/Veiled_virgin.jpg"]
+        foto: ["Veiled_virgin.jpg"]
     }
 ];
