@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog — Artefak Nusantara</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Antiqua</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="katalog.html">Katalog</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="panduan.html">Panduan</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="katalog-header">
+    <h1>Katalog Artefak</h1>
+
+    <div class="filter-bar">
+      <select id="filterKategori">
+        <option value="semua">Semua Kategori</option>
+        <option value="Lukisan">Lukisan</option>
+        <option value="Karya">Karya</option>
+        <option value="Patung">Patung</option>
+        <option value="Tekstil">Tekstil</option>
+      </select>
+
+      <input type="text" id="searchInput" placeholder="Cari nama artefak...">
+    </div>
+  </section>
+
+  <section class="grid-produk" id="grid-produk">
+    <!-- Produk akan dirender otomatis di sini oleh JavaScript -->
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Artefak Nusantara. Tugas Proyek Sekolah | <a href="sumber-gambar.html">Sumber Gambar</a></p>
+  </footer>
+  
+  <script src="js/data.js"></script>
+  <script src="js/katalog.js"></script>
+</body>
+</html>
